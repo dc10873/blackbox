@@ -1,0 +1,34 @@
+session.screen0.slit.placement:	CenterRight
+session.screen0.slit.direction:	Vertical
+session.screen0.slit.onTop:	False
+session.screen0.slit.autoHide:	False
+session.screen0.toolbar.onTop:	False
+session.screen0.toolbar.autoHide:	False
+session.screen0.toolbar.placement:	BottomCenter
+session.screen0.toolbar.widthPercent:	66
+session.screen0.enableToolbar:	True
+session.screen0.workspaces:	6
+session.screen0.workspaceNames:	Workspace 1,Workspace 2,Workspace 3,Workspace 4,Workspace 5,Workspace 6
+session.screen0.strftimeFormat:	%I:%M %p
+session.styleFile:	/home/dale/.blackbox/styles/Blue
+session.imageDither:	OrderedDither
+session.fullMaximization:	False
+session.opaqueMove:	True
+session.colPlacementDirection:	TopToBottom
+session.windowPlacement:	RowSmartPlacement
+session.focusNewWindows:	True
+session.shadeWindowWithMouseWheel:	True
+session.disableBindingsWithScrollLock:	False
+session.rowPlacementDirection:	LeftToRight
+session.windowSnapThreshold:	0
+session.placementIgnoresShaded:	True
+session.changeWorkspaceWithMouseWheel:	True
+session.autoRaiseDelay:	400
+session.opaqueResize:	True
+session.focusModel:	ClickToFocus
+session.doubleClickInterval:	250
+session.toolbarActionsWithMouseWheel:	True
+session.focusLastWindow:	True
+session.maximumColors:	0
+session.menuFile:	/home/dale/.blackbox/menu
+session.edgeSnapThreshold:	0

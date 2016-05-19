@@ -1,0 +1,64 @@
+[begin] (Blackbox)
+
+[submenu] (TERMS)
+	[exec] (lxterminal)     {lxterminal}
+	[exec]  () {}
+[end]
+[submenu] (Chat Clients)
+	[exec]  () {}
+[end]
+[submenu] (Media)
+	[exec]  (VLC) {vlc}
+	[exec]  (Liferea-RSS) {liferea}
+ 
+[end]
+[submenu] (Graphics)
+	[exec]  (Pinta) {pinta}
+	[exec]  (GIMP) {gimp}
+ 
+[end]
+[submenu] (Emulator)
+	[exec]  (QEMU) {aqemu}
+[end]
+[submenu] (Office)
+	[exec] (Gnumeric)	 {gnumeric}
+	[exec] (Abiword) 	 {abiword}
+	[exec] (PDF Viewer)  {epdfview}
+	[exec] (Calendar) 	 {osmo}
+[end]
+[submenu] (Browser)
+	[exec] (Midori)	{midori}
+	[exec] (Iceweasel)  {iceweasel}
+[end]
+[submenu] (X Utilities)
+	[exec] (Xfontsel) {xfontsel}
+	[exec] (Xman)     {xman}
+	[exec] (Xcalc)    {xcalc}
+	[exec] (Xload)    {xload}
+	[exec]  (Grsync) {grsync}
+	[exec]  () {}
+[end]
+ 
+[submenu] (Styles) {Choose a style...}
+	[stylesdir] (~/.blackbox/styles)
+[end]
+
+[workspaces] (Workspace List)
+	[config] (Configuration)
+
+[reconfig] (Reconfigure)
+[restart] (Restart)
+[submenu] (Others)              {Other Window Managers}
+	[restart] (Start Afterstep)   {afterstep}
+	[restart] (Start Blackbox)   {blackbox}
+[end]
+
+[exit] (Exit)
+[end]
+
+# End of example menu.
+#    [restart] (Start FVWM)        {fvwm}
+#    [restart] (Start WindowMaker) {wmaker}
+#    [restart] (Start Enlightenment) {enlightenment}
+#    [restart] (Start TWM)         {twm}
+#    [restart] (Start KWM)         {kwm}
